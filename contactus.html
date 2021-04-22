@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sali Tech</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <style>
+        .parallax {
+            /* The image used */
+            background-image: url("images/contactMe.png");
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <a href="index.html">
+            <div class="container text-left">
+
+                <h1>Fran Salinas-Ryan</h1>
+                <p>Web Developer</p>
+        </a>
+    </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">HOME</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="resume.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contactus.html">CONTACT</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> Fran Salinas-Ryan Web Developer</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="parallax"></div>
+
+
+    <div class="container text-left">
+        <div class="row">
+            <h3>Contact Me</h3>
+            <div id="formcontainer">
+                <h3> For quotes please enter you information:</h3>
+
+
+                <form action="contactus.php" method="post">
+                    <div class="boxForm">
+                        <div id="side1">
+                            <p><b>Your Name:<br></br>
+                                    Subject:<br></br>
+                                    E-mail:<br></br>
+                                    Phone Number: </b></p>
+                            </br>
+                            <b>How can we help you?</b>
+                            </br>
+                        </div><!-- End of side1 div-->
+
+                        <div id="side2">
+                            <p></p>
+                            <input type="text" name="yourname" /><br></br>
+                            <input type="text" name="subject" /><br><br />
+                            <input type="text" name="email" /><br><br />
+                            <input type="text" name="phone" /><br></br>
+                            <p></p>
+
+                            </br>
+                        </div><!-- End of side2 div-->
+                    </div> <!-- End of boxForm div-->
+                    <textarea name="comments" rows="8" cols="90"></textarea></p>
+                    </br>
+                    <p><input type="submit" value="Send My Email"></p>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <!--End of formcontainer div-->
+
+    <div class="parallax"></div>
+
+    <footer class="container-fluid text-left">
+        <p>
+            Fran Salinas-Ryan<br />
+            &copy; Copyright 2019</p>
+        <span id="siteseal">
+            <script async type="text/javascript"
+                src="https://seal.godaddy.com/getSeal?sealID=4z7E5EZdgoe2jYLIvy0EfaxmF0LmxKUbK0rTOJi8KEsqg1XKbx51AG5SSdE8">
+            </script>
+        </span>
+    </footer>
+    <!--End of footer div-->
+
+
+
+</body>
+
+</html>
